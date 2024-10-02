@@ -47,22 +47,20 @@
         ></button>
       </div>
       <div
-        class="row overflow-scroll"
-        style="height: 70vh; scrollbar-width: none"
+        class="row"
       >
-        <div class="col-md-10 col-9 my-4">
+        <div class="col-md-10 my-4 overflow-scroll" style="height: 68vh; scrollbar-width: none">
           <div
             class="tasks-wrapper mx-auto"
             style="max-width: 520px"
             id="notes-wrapper"
           ></div>
         </div>
-        <div class="col-md-2 col-3 position-relative">
+        <div class="col-md-2 align-self-end ms-auto">
           <button
             type="button"
             aria-label="Add new note"
-            class="border-0 btn p-0 position-fixed"
-            style="bottom: 2rem;"
+            class="border-0 btn p-0 "
             data-bs-toggle="modal"
             data-bs-target="#makeNote"
             data-bs-action="add"
